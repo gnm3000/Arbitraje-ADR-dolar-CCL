@@ -29,7 +29,7 @@ def cclPromedio(preciosCCL):
     valor = 0
     for item in preciosCCL.values():
         valor += item
-    print ("DOLAR CONTADO CON LIQUI= " + str(valor / len(preciosCCL)) + " Se utiliza para el calculo el promedio de los 4 cedears con mas volumen")
+    print ("DOLAR CONTADO CON LIQUI= " + str(valor / len(preciosCCL)) + " -Se utiliza para el calculo el promedio de los 4 ADR con mas volumen. GGAL,PAMPA,YPF y MACRO")
     return valor/len(preciosCCL)
 
 #2- Calculo del valor arbitrado de cada adr
@@ -89,5 +89,4 @@ def iniciar():
     return df
 
 iniciar()
-
 
