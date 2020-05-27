@@ -12,7 +12,8 @@ Se utiliza:
 
 -pandas para mostrar la salida de datos.
 
--Reuters -para traer los datos sobre las cotizaciones locales y en la bolsa donde cotiza el ADR. (https://pypi.org/project/Reuters/)
+-Reuters -para traer los datos sobre las cotizaciones locales y en el mercado donde cotiza el ADR. (https://pypi.org/project/Reuters/)
 
+Se recomienda correrlo en Jupyter Notebook ya que es el contexto donde esta probado y funcional.
 
 
